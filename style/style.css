@@ -161,8 +161,13 @@ nav .menu a {
 
 #card-section {
     /* border: 1px solid red; */
+    align-items: center;
     text-align: center;
     padding: 70px 120px 0;
+}
+
+#card-section .container{
+    margin: 0 auto;
 }
 
 #card-section .container h2 {
@@ -182,21 +187,20 @@ nav .menu a {
 
 .card-container {
     width: 85%;
+    max-width: 1360px;
     display: flex;
     margin: 0 auto;
-
     gap: 24px;
 
 }
 
 .card-container .card {
-    width: 320px;
-    gap: 24px;
+    width: 322px;
     text-align: center;
     margin: 0 auto;
     border-radius: 10px;
-    padding: 40px 30px;
-    box-shadow: 0 0 8px 0 #6863636e;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 #68636352;
     align-items: center;
 }
 
@@ -209,7 +213,7 @@ nav .menu a {
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
-    margin-bottom: 16px;
+    margin: 69px auto 16px;
 }
 
 #solution-section .solution {
@@ -268,16 +272,16 @@ nav .menu a {
 
 
 #cta-section {
-    padding: 120px 40px;
-    display: flex;
-    justify-content: center;
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
-.cta-box {
+#cta-section .cta-box {
     background: #F7F6F2;
     max-width: 1360px;
     width: 85%;
-    margin: 2px 120px 120px 120px;
+    margin: 2px 120px 120px;
     padding: 80px 40px;
     border-radius: 12px;
     text-align: center;
@@ -306,17 +310,16 @@ nav .menu a {
 #footer {
     background-color: #001931;
     padding: 120px 120px 30px;
+    margin: 0 auto;
 }
 
 #footer .footer-top {
     display: flex;
     width: 85%;
     max-width: 1360px;
-    display: flex;
-    margin: 0 auto;
+    margin: 120px auto 80px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
 }
 
 .footer-top .social {
@@ -364,9 +367,10 @@ nav .menu a {
 }
 
 #footer .footer-bottom{
+    max-width: 1360px;
     font-size: 16px;
     line-height: 24px;
     color: #FAFAFA;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
