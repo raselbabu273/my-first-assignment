@@ -73,6 +73,13 @@ nav .menu a {
     text-decoration: none;
 }
 
+.menu li:hover{
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
 #hero {
     position: relative;
     /* height: 674px; */
