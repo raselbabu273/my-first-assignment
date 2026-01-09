@@ -75,9 +75,9 @@ nav .menu a {
 
 .menu li:hover{
     cursor: pointer;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    background-color: lightgray;
+    border: 1px solid #d3d3d355;
+    border-radius: 5px;
+    background-color: #d3d3d355;
 }
 
 #hero {
@@ -198,7 +198,6 @@ nav .menu a {
     padding: 40px 30px;
     box-shadow: 0 0 8px 0 #6863636e;
     align-items: center;
-
 }
 
 .card:hover {
@@ -215,9 +214,9 @@ nav .menu a {
 
 #solution-section .solution {
     width: 85%;
+    max-width: 1360px;
     display: flex;
-    margin: 0 auto;
-    padding: 120px;
+    margin: 120px auto;
     align-items: center;
     gap: 60px;
 }
@@ -225,30 +224,34 @@ nav .menu a {
 #solution-section .solution .image {
     width: 600px;
     height: 600px;
+    background-color: #FAFAFA;
+}
+
+.solution .sn-content{
+    max-width: 700px;
+    text-align: left;
+    margin: 102px auto;
 }
 
 .solution .sn-content h4 {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    width: 700px;
-    color: #469165;
+    color:#469165;
     margin-bottom: 16px;
 }
 
 .solution .sn-content h2 {
     font-size: 48px;
     font-weight: bold;
-    width: 700px;
-    color: #001931;
+    color:#001931;
     margin-bottom: 16px;
 }
 
 .solution .sn-content p {
     font-size: 16px;
     line-height: 20px;
-    width: 700px;
-    color: #627382;
+    color:#627382;
     margin-bottom: 40px;
 }
 
@@ -256,12 +259,13 @@ nav .menu a {
     list-style-type: none;
     font-size: 16px;
     font-weight: 500;
-    align-items: center;
+    
 }
 
 .solution .sn-content .options li {
     margin-bottom: 16px;
 }
+
 
 #cta-section {
     padding: 120px 40px;
