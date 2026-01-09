@@ -1,3 +1,134 @@
-body{
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Style */
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn {
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12.5px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.color-green {
+    color: #30B868;
+}
+
+/* Main Style */
+
+header {
+    background-color: #FFFFFF;
+}
+
+nav {
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    padding: 16PX 120PX;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+nav .menu a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+    /* height: 674px; */
+    background: url("../assets/hero-bg.png") center/cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 40px; */
+}
+
+#hero .hero-content {
+    padding: 115px 120px 179px;
+    /* position: relative; */
+    max-width: 1360px;
+}
+
+.frame {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    background: white;
+    color: #469165;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+
+.frame .frame-dot {
+    width: 10px;
+    height: 10px;
+    background: #469165;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #469165;
+}
+
+#hero .hero-content h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+#hero .hero-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 770px;
+    margin-bottom: 32px;
+
+}
+
+.hero-content .button {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-content .button .second-btn {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #5b697dc6;
+    border-radius: 5px;
+    color: white;
+    padding: 16px;
+    background: transparent;
+}
+
+.hero-content .button .second-btn:hover {
+    border-color: #22c55e;
+    color: #22c55e;
 }
