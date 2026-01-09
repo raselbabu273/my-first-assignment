@@ -22,6 +22,11 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    cursor: pointer;
+    border: 2px solid #ced7dc80;
+}
+
 .color-green {
     color: #30B868;
 }
@@ -100,8 +105,8 @@ nav .menu a {
 }
 
 .frame .frame-dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background: #469165;
     border-radius: 50%;
     box-shadow: 0 0 6px #469165;
@@ -142,6 +147,7 @@ nav .menu a {
 }
 
 .hero-content .button .second-btn:hover {
+    cursor: pointer;
     border-color: #22c55e;
     color: #22c55e;
 }
@@ -190,7 +196,7 @@ nav .menu a {
 
 .card:hover {
     cursor: pointer;
-    border: 2px solid rgba(206, 215, 220, 0.503)
+    border: 2px solid #ced7dc80;
 }
 
 .card-container .card img {
@@ -284,4 +290,72 @@ nav .menu a {
     color: #627382;
     line-height: 20px;
     margin-top: 16px;
+}
+
+#footer {
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+
+#footer .footer-top {
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-top .social {
+    text-align: left;
+}
+
+.footer-top .social p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 0 107px 0 0;
+    margin-bottom: 16px;
+}
+
+.social .icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social .icons a {
+    width: 20px;
+    height: 20px;
+    background: white;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.icons a:hover {
+    cursor: pointer;
+    border: 2px solid rgba(206, 215, 220, 0.503)
+}
+
+#footer hr {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    height: 1px;
+    margin-bottom: 30px;
+    border: 1px solid #627382;
+}
+
+#footer .footer-bottom{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 30px;
 }
