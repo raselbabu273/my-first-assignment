@@ -173,7 +173,7 @@ nav .menu a {
     margin: 0 auto;
 
     gap: 24px;
-    gap: 30px;
+
 }
 
 .card-container .card {
@@ -197,5 +197,55 @@ nav .menu a {
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
+    margin-bottom: 16px;
+}
+
+#solution-section .solution{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    padding: 120px;
+    align-items: center;
+    gap: 60px;
+}
+
+#solution-section .solution .image{
+    width: 600px;
+    height: 600px;
+}
+
+.solution .sn-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 700px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.solution .sn-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    width: 700px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution .sn-content p{
+    font-size: 16px;
+    line-height: 20px;
+    width: 700px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution .sn-content .options{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.solution .sn-content .options li{
     margin-bottom: 16px;
 }
