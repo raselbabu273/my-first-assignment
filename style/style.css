@@ -26,14 +26,14 @@
     color: #30B868;
 }
 
-.card-container .card h3{
+.card-container .card h3 {
     font-size: 24px;
     font-weight: 600;
     margin: 16px;
     color: #001931;
 }
 
-.card-container .card p{
+.card-container .card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
@@ -185,22 +185,22 @@ nav .menu a {
     padding: 40px 30px;
     box-shadow: 0 0 8px 0 #6863636e;
     align-items: center;
-    
+
 }
 
 .card:hover {
-  cursor: pointer;
-  border: 2px solid rgba(206, 215, 220, 0.503)
+    cursor: pointer;
+    border: 2px solid rgba(206, 215, 220, 0.503)
 }
 
-.card-container .card img{
+.card-container .card img {
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
     margin-bottom: 16px;
 }
 
-#solution-section .solution{
+#solution-section .solution {
     width: 85%;
     display: flex;
     margin: 0 auto;
@@ -209,12 +209,12 @@ nav .menu a {
     gap: 60px;
 }
 
-#solution-section .solution .image{
+#solution-section .solution .image {
     width: 600px;
     height: 600px;
 }
 
-.solution .sn-content h4{
+.solution .sn-content h4 {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -223,7 +223,7 @@ nav .menu a {
     margin-bottom: 16px;
 }
 
-.solution .sn-content h2{
+.solution .sn-content h2 {
     font-size: 48px;
     font-weight: bold;
     width: 700px;
@@ -231,7 +231,7 @@ nav .menu a {
     margin-bottom: 16px;
 }
 
-.solution .sn-content p{
+.solution .sn-content p {
     font-size: 16px;
     line-height: 20px;
     width: 700px;
@@ -239,13 +239,49 @@ nav .menu a {
     margin-bottom: 40px;
 }
 
-.solution .sn-content .options{
+.solution .sn-content .options {
     list-style-type: none;
     font-size: 16px;
     font-weight: 500;
     align-items: center;
 }
 
-.solution .sn-content .options li{
+.solution .sn-content .options li {
     margin-bottom: 16px;
+}
+
+#cta-section {
+    padding: 120px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
+    background: #F7F6F2;
+    max-width: 1360px;
+    width: 85%;
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cta-box h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.text-note {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px;
 }
